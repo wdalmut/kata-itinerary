@@ -1,0 +1,19 @@
+{
+  "require": {
+    "doctrine/collections": "1.3.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4",
+    "phpspec/phpspec": "~2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Walter\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Walter\\": "tests/"
+    }
+  }
+}
